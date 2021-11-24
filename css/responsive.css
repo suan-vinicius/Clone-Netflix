@@ -1,0 +1,46 @@
+@media (max-width: 800px) {
+
+    #banner {
+        height: 50vh;
+    }
+    
+    #banner__info {
+        position: absolute;
+        background: transparent;
+    }
+    
+    #banner__info__details p {
+        display: none;
+    }
+
+    #banner__info__details h1 {
+        font-size: 1.3rem;
+    }
+
+    #banner__info__btn {
+        width: 70vw;
+    }
+
+    #banner__info__btn button {
+        font-size: 0.8rem;
+    }
+
+    #banner__info__logo {
+        width: 80px;
+        height: 50px;
+        top: 30%;
+    }
+    
+    .container:nth-child(2) {
+        margin-top: 15px;
+    }
+
+    .container__size {
+        width: 70vw;
+        height: 30vh;
+    }
+
+    .container__img:hover {
+        transform: none;
+    }
+}
